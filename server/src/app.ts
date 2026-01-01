@@ -6,7 +6,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "https://fleet-ui-li84.onrender.com",
+    origin: process.env.FRONTEND_URL || "https://fleet-ui-1i84.onrender.com",
   })
 );
 app.use(express.json());

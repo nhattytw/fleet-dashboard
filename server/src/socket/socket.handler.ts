@@ -9,7 +9,7 @@ export const initializeSocket = (httpServer: any) => {
     cors: {
       origin:
         process.env.NODE_ENV === "production"
-          ? [process.env.FRONTEND_URL || "https://fleet-ui-li84.onrender.com"]
+          ? [process.env.FRONTEND_URL || "https://fleet-ui-1i84.onrender.com"]
           : ["http://localhost:5173"],
       methods: ["GET", "POST"],
     },
