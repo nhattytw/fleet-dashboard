@@ -1,0 +1,27 @@
+{
+  "name": "fleet-dashboard",
+  "version": "1.0.0",
+  "description": "A reliable Fleet Management System built with a focus on real-time data integrity, strict type safety, and minimalistic UX.",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && npm install --prefix server && npm install --prefix client",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "db:seed": "npm run prisma:seed --prefix server",
+    "db:push": "npm run db:push --prefix server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhattytw/fleet-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nhattytw/fleet-dashboard/issues"
+  },
+  "homepage": "https://github.com/nhattytw/fleet-dashboard#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
