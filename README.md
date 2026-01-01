@@ -63,6 +63,5 @@ npm run dev
 
 - **Strict TypeScript:** Zero usage of `any`. Explicit interface sharing across the boundary (Backend ↔ Frontend).
 - **React 19 Purity:** Idempotent rendering via `useMemo` for temporal logic.
-- **Singleton Persistence:** Centralized Prisma and Socket instance management.
-- **Separation of Concerns (SOC):** Strict decoupling of HTTP concerns (Controllers), Business Logic (Services), and Data Access (Prisma).
 - **Singleton Pattern & Dependency Persistence:** Database (Prisma) and Real-time (Socket.io) instances are managed as singletons.
+- **Separation of Concerns (SOC):** Strict decoupling of HTTP concerns (Controllers), Business Logic (Services), and Data Access (Prisma).
