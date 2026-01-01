@@ -8,8 +8,8 @@ dotenv.config();
 const httpServer = createServer(app);
 initializeSocket(httpServer);
 
-const PORT = 9000;
+const PORT = Number(process.env.PORT) || 9000;
 
-httpServer.listen(PORT, () => {
+httpServer.listen(PORT, "0.0.0.0", () => {
   console.log(`Server running on port ${PORT}`);
 });
