@@ -1,6 +1,6 @@
 # FleetOS Engineering Dashboard
 
-A high-fidelity Fleet Management System built with a focus on real-time data integrity, strict type safety, and minimalistic UX.
+A reliable Fleet Management System built with a focus on real-time data integrity, strict type safety, and minimalistic UX.
 
 ## System Architecture
 
