@@ -35,9 +35,21 @@ Install dependencies and synchronize the schema:
 
 ```bash
 cd server
+```
+
+```bash
 npm install
+```
+
+```bash
 npm run db:push
+```
+
+```bash
 npm run prisma:seed
+```
+
+```bash
 npm run dev
 ```
 
@@ -47,7 +59,13 @@ Launch the Vite development server:
 
 ```bash
 cd client
+```
+
+```bash
 npm install
+```
+
+```bash
 npm run dev
 ```
 
